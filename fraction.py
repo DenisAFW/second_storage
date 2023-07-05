@@ -51,7 +51,7 @@ while count != 0:
         break
 
 print(f'Произведение дробей равно {multiplication_numerator // count}/{multiplication_divider // count}')
-
+# Fraction проверка
 first_fraction = fractions.Fraction(int(N1), int(N2))
 second_fraction = fractions.Fraction(int(N3), int(N4))
 print(f'\nСумма дробей равна {first_fraction + second_fraction}')
